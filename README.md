@@ -31,8 +31,6 @@ Target variable:
 alert = 1  if PM2.5 ≥ 150
 alert = 0  otherwise
 
-![alt text](image.png)
-
 Evaluation metric: F1-score (recommended for imbalanced classification)
 
 ## 1.2 📊 Dataset
@@ -52,7 +50,7 @@ Raw data path: data/PRSA_Data_20130301-20170228/
 
 ## 1.3 🔍 Exploratory Data Analysis
 
-EDA is performed in notebooks/01_eda.ipynb.
+EDA is performed in notebooks/01_Data_and_EDA.ipynb.
 
 Key findings:
 
@@ -70,7 +68,7 @@ F1-score optimization
 
 ## 1.4 🧠 Feature Engineering
 
-Performed in notebooks/02_feature_engineering.ipynb.  
+Performed in notebooks/02_FeatureEngineering.ipynb.  
 
 Leakage-safe design  
 
