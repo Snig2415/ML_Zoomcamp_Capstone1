@@ -1,0 +1,7 @@
+AQI/
+├── data/
+├── notebooks/
+├── src/
+├── models/
+├── Dockerfile
+└── README.md
